@@ -1,9 +1,8 @@
 class ArticlesController < ApplicationController
 
 	def index
-		# render 'home/index'
-		@article = Article.first
-		# article クラスのインスタンスが作成される。データベースから値を取得することができる
-		# インスタンス変数にしておくことで、views 側でも使用することができる
+		@articles = Article.all
+		# article クラスのインスタンスが作成される。データベースから値を取得することができる。
+		# RailsにはCRUDに関するメソッド名が指定されている。メソッドではあるが、CRUDに対応するメソッドは「アクション」とも呼ぶ。
 	end
 end
