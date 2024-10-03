@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   root to: 'articles#index'
   # home#index よりも具体的な表示名にした方が適切
   # get '/' => 'home#index' この部分は、root to: 'home#index'を記述しておく
+  resources :articles, only: [:show]
 end
