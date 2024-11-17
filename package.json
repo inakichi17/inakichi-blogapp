@@ -14,5 +14,12 @@
   "engines": {
     "node": "20.18.0",
     "yarn": "1.22.22"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-private-methods": "^7.25.9",
+    "@babel/plugin-transform-private-property-in-object": "^7.25.9"
+  },
+  "scripts": {
+    "start": "cross-env NODE_OPTIONS='--openssl-legacy-provider' app.js"
   }
 }
