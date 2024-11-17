@@ -20,6 +20,6 @@
     "@babel/plugin-transform-private-property-in-object": "^7.25.9"
   },
   "scripts": {
-    "start": "cross-env NODE_OPTIONS='--openssl-legacy-provider' app.js"
+    "start": "cross-env NODE_OPTIONS='--openssl-legacy-provider' index.js"
   }
 }
