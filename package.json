@@ -6,12 +6,12 @@
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "4.3.0",
-    "turbolinks": "^5.2.0",
-    "node-gyp": "^10.2.0"
+    "node-gyp": "^10.2.0",
+    "turbolinks": "^5.2.0"
   },
   "version": "0.1.0",
   "engines": {
-    "node": "22.11.0",
+    "node": "20.18.0",
     "npm": "10.2.0",
     "yarn": "1.22.22"
   }
