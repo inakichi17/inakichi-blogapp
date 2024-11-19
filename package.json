@@ -1,22 +1,20 @@
 {
-  "name": "inakichi_blogapp",
+  "name": "blog_app",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
+    "@rails/actiontext": "^6.0.2-1",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
-    "@rails/webpacker": "^5.0.0",
-    "node-gyp": "^10.2.0",
-    "node-sass": "^9.0.0",
+    "@rails/webpacker": "4.2.2",
+    "axios": "^0.19.2",
+    "jquery": "^3.5.1",
+    "rails-ujs": "^5.2.4-3",
+    "trix": "^1.0.0",
     "turbolinks": "^5.2.0"
   },
   "version": "0.1.0",
-  "engines": {
-    "node": "20.18.0",
-    "yarn": "1.22.22"
-  },
   "devDependencies": {
-    "@babel/plugin-transform-private-methods": "^7.25.9",
-    "@babel/plugin-transform-private-property-in-object": "^7.25.9"
+    "webpack-dev-server": "^3.11.0"
   }
 }
