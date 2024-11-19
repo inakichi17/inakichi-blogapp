@@ -66,6 +66,15 @@ module.exports = function(api) {
         {
           async: false
         }
+      ],
+      // 新しく追加するプラグイン
+      [
+        '@babel/plugin-transform-private-methods', 
+        { loose: true } // looseオプションを設定
+      ],
+      [
+        '@babel/plugin-transform-private-property-in-object', 
+        { loose: true } // looseオプションを設定
       ]
     ].filter(Boolean)
   }
